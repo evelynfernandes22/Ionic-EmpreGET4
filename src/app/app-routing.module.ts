@@ -83,6 +83,10 @@ const routes: Routes = [
   {
     path: 'pedido',
     loadChildren: () => import('./pages/componentes/pedido/pedido.module').then( m => m.PedidoPageModule)
+  },
+  {
+    path: 'tipo-user-home',
+    loadChildren: () => import('./pages/componentes/tipo-user-home/tipo-user-home.module').then( m => m.TipoUserHomePageModule)
   }
 
 
