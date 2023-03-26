@@ -4,7 +4,8 @@ ion-content{
 }
 ion-img{
     padding-left: 30%;
-    width: 60%;
+    width
+    : 60%;
     
 }
 .Capa{
@@ -30,4 +31,15 @@ ion-img{
     height: 100%;
     font-family: 'inter', sans-serif;
     font-style: italic;
+}
+
+ion-list{
+    ion-item{
+        ion-col{
+            .coluna-view{
+                display: flex;
+                justify-content: end;
+            }
+        }
+    }
 }

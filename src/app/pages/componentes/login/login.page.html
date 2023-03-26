@@ -26,15 +26,21 @@
                 </ion-item>            
 
         </ion-card-content>
-        
-        <div class="sublinhado">
+        <ion-item>
           <ion-checkbox slot="start"></ion-checkbox>
+          <div class="sublinhado">
              <p>Lembrar senha</p>
           </div>
           <div class="sublinhado" slot="end" >
-            <p>Esqueci a senha</p>
+            <!-- <p>Esqueci a senha</p> -->
+            <ion-buttons>
+              <ion-button routerLink="/esqueci-senha" fill="clear">
+                Esqueci a senha
+              </ion-button>
+            </ion-buttons>
           </div>
-       
+        </ion-item>
+
         <br><br>
         <ion-grid>
             <ion-row class="ion-justify-content-center">
