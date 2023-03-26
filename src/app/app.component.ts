@@ -14,12 +14,12 @@ export class AppComponent {
 
   public appPages = [
     { title: 'Home', url: '/home', icon: 'home' },
-    { title: 'Alterar perfil', url: '/cadastro', icon: 'person' },
+    { title: 'Alterar perfil', url: '/editar-cliente', icon: 'person' },
     { title: 'Favoritos', url: '#', icon: 'heart' },
-    { title: 'Pedidos', url: '#', icon: 'bag' },
+    { title: 'Pedidos', url: '/pedido', icon: 'bag' },
     { title: 'Ajuda', url: '#', icon: 'help-circle' },
     { title: 'Sobre o app', url: '#', icon: 'warning' },
-    { title: 'Sair', url: '#', icon: 'log-out' },
+    { title: 'Sair', url: '/login', icon: 'log-out' },
   ];
 
   constructor() {

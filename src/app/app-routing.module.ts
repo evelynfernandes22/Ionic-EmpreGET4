@@ -67,6 +67,22 @@ const routes: Routes = [
   {
     path: 'gerenciar-perfil',
     loadChildren: () => import('./pages/componentes/gerenciar-perfil/gerenciar-perfil.module').then( m => m.GerenciarPerfilPageModule)
+  },
+  {
+    path: 'historico-agendamentos',
+    loadChildren: () => import('./pages/componentes/historico-agendamentos/historico-agendamentos.module').then( m => m.HistoricoAgendamentosPageModule)
+  },
+  {
+    path: 'editar-cliente',
+    loadChildren: () => import('./pages/componentes/editar-cliente/editar-cliente.module').then( m => m.EditarClientePageModule)
+  },
+  {
+    path: 'editar-prestador',
+    loadChildren: () => import('./pages/componentes/editar-prestador/editar-prestador.module').then( m => m.EditarPrestadorPageModule)
+  },
+  {
+    path: 'pedido',
+    loadChildren: () => import('./pages/componentes/pedido/pedido.module').then( m => m.PedidoPageModule)
   }
 
 
