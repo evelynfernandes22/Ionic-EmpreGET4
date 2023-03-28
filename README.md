@@ -1,2 +1,4 @@
-# EmpreGet-ionic2
- Projeto de extensão
+> EmpreGet-ionic
+** Projeto de extensão ** <br>
+*Em desenvolvimento*
+
