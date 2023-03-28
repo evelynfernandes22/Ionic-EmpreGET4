@@ -1,5 +1,5 @@
 > EmpreGet-ionic
 > 
-<strong> Projeto de extensão <strong> <br>
-*Em desenvolvimento*
+<strong> Projeto de extensão, entrega IV. <strong> <br>
+*Em desenvolvimento.*
 
