@@ -1,4 +1,5 @@
 > EmpreGet-ionic
-** Projeto de extensão ** <br>
+> 
+<strong> Projeto de extensão <strong> <br>
 *Em desenvolvimento*
 
