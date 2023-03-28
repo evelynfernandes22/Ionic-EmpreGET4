@@ -1,5 +1,5 @@
-> EmpreGet-ionic
-> 
-<strong> Projeto de extensão, entrega IV. <strong> <br>
-*Em desenvolvimento.*
+# EmpreGET - Ionic
+<Desenvolvimento de aplicação mobile para o projeto de extensão do curso de Análise e Desenvolvimento de Sistemas, Unifil.
 
+**Grupo 09.**
+<
