@@ -3,6 +3,8 @@
     <ion-menu-button slot="start" color="primary"></ion-menu-button>
     <ion-img src="../../../../assets/images/Logo-transparente.png"></ion-img>
   </ion-toolbar>
+  <ion-searchbar show-clear-button="always" clear-icon="funnel" placeholder="Pesquisar por nome">
+  </ion-searchbar>
 </ion-header>
 
 <ion-content>
@@ -20,13 +22,22 @@
     </div>
   </ion-header>
   <div class="ion-header-search">
-    <p>Encontre prestadores na sua região:</p>
+    <p>Encontre prestadores próximos a você </p>
+    <ion-list>
+      <ion-item>
+        <ion-select aria-label="Fruit" placeholder="Região">
+          <ion-select-option value="Centro">Centro</ion-select-option>
+          <ion-select-option value="Norte">Norte</ion-select-option>
+          <ion-select-option value="Sul">Sul</ion-select-option>
+          <ion-select-option value="Leste">Leste</ion-select-option>
+          <ion-select-option value="Oeste">Oeste</ion-select-option>
+          <ion-select-option value="Oeste">Todos</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
   </div>
-  <ion-searchbar show-clear-button="always" clear-icon="funnel" placeholder="Pesquisar">
 
-  </ion-searchbar>
   <ion-list-header> Prestadores:</ion-list-header>
-
 
   <ion-item>
     <ion-avatar slot="start">
